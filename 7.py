@@ -3738,15 +3738,6 @@ def bot(op):
 
                         elif cmd == "cek":
                             if msg._from in admin:
-                                try:cl.inviteIntoGroup(to, [mid]);has = "OK"
-                                except:has = "NOT"
-                                try:cl.kickoutFromGroup(to, [mid]);has1 = "OK"
-                                except:has1 = "NOT"
-                                if has == "OK":sil = "ok ยังไม่บัค"
-                                else:sil = "บัคแล้ว"
-                                if has1 == "OK":sil1 = "ok ยังไม่บัค"
-                                else:sil1 = "บัคแล้ว"
-                                cl.sendMessage(to, "ค่าสถานะ\nเตะ : {} \nเชิญ : {}".format(sil1,sil))
                                 try:ki.inviteIntoGroup(to, [Amid]);has = "OK"
                                 except:has = "NOT"
                                 try:ki.kickoutFromGroup(to, [Amid]);has1 = "OK"
@@ -3810,15 +3801,6 @@ def bot(op):
                                 if has1 == "OK":sil1 = "ok ยังไม่บัค"
                                 else:sil1 = "บัคแล้ว"
                                 kf.sendMessage(to, "ค่าสถานะ\nเตะ : {} \nเชิญ : {}".format(sil1,sil))
-                                try:sw.inviteIntoGroup(to, [Zmid]);has = "OK"
-                                except:has = "NOT"
-                                try:sw.kickoutFromGroup(to, [Zmid]);has1 = "OK"
-                                except:has1 = "NOT"
-                                if has == "OK":sil = "ok ยังไม่บัค"
-                                else:sil = "บัคแล้ว"
-                                if has1 == "OK":sil1 = "ok ยังไม่บัค"
-                                else:sil1 = "บัคแล้ว"
-                                sw.sendMessage(to, "ค่าสถานะ\nเตะ : {} \nเชิญ : {}".format(sil1,sil))
 
                         elif cmd == "gruplist1":
                             if msg._from in admin:
@@ -3888,7 +3870,7 @@ def bot(op):
                                     mc += str(c) + ". " +cl.getContact(m_id).displayName + "\n"
                                 cl.sendMessage(msg.to,"☯️  [CANNIBAL™️]\n\n༎⎑  ༓Super admin:\n"+ma+"\n༎⎑  ༓Admin:\n"+mb+"\n༎⎑  ༓Staff:\n"+mc+"\n༎⎑  ༓Total「%s」 " %(str(len(owner)+len(admin)+len(staff))))
 
-                        elif cmd == "listprotect":
+                        elif cmd == "set2":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 ma = ""
@@ -4428,6 +4410,34 @@ def bot(op):
                                time.sleep(0.002)  
                                elapsed_time = time.time() / 3 - start
                                cl.sendMessage(msg.to,format(str(elapsed_time/3)))
+                               start = time.time() / 3 
+                               time.sleep(0.002)  
+                               elapsed_time = time.time() / 3 - start
+                               ki.sendMessage(msg.to,format(str(elapsed_time/3)))
+                               start = time.time() / 3 
+                               time.sleep(0.002)  
+                               elapsed_time = time.time() / 3 - start
+                               kk.sendMessage(msg.to,format(str(elapsed_time/3)))
+                               start = time.time() / 3 
+                               time.sleep(0.002)  
+                               elapsed_time = time.time() / 3 - start
+                               kc.sendMessage(msg.to,format(str(elapsed_time/3)))
+                               start = time.time() / 3 
+                               time.sleep(0.002)  
+                               elapsed_time = time.time() / 3 - start
+                               kb.sendMessage(msg.to,format(str(elapsed_time/3)))
+                               start = time.time() / 3 
+                               time.sleep(0.002)  
+                               elapsed_time = time.time() / 3 - start
+                               kd.sendMessage(msg.to,format(str(elapsed_time/3)))
+                               start = time.time() / 3 
+                               time.sleep(0.002)  
+                               elapsed_time = time.time() / 3 - start
+                               ke.sendMessage(msg.to,format(str(elapsed_time/3)))
+                               start = time.time() / 3 
+                               time.sleep(0.002)  
+                               elapsed_time = time.time() / 3 - start
+                               kf.sendMessage(msg.to,format(str(elapsed_time/3)))
                                 
                         elif cmd == "lurking on":
                           if wait["selfbot"] == True:
