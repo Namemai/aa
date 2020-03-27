@@ -29,49 +29,41 @@ cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
 ki = LineClient("hhm34248@eoopy.com","mai06555mai")
 ki.log("Auth Token : " + str(ki.authToken))
-channel1 = LineChannel(ki,ki.server.CHANNEL_ID['LINE_TIMELINE'])
-ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
+ki.log("Channel Access Token : " + str(channel.channelAccessToken))
 
 
 kk = LineClient("lad34018@eoopy.com","mai06555mai")
 kk.log("Auth Token : " + str(kk.authToken))
-channel2 = LineChannel(kk,kk.server.CHANNEL_ID['LINE_TIMELINE'])
-kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
+kk.log("Channel Access Token : " + str(channel.channelAccessToken))
 
 
 kc = LineClient("tvm12228@zzrgg.com","mai06555mai")
 kc.log("Auth Token : " + str(kc.authToken))
-channel3 = LineChannel(kc,kc.server.CHANNEL_ID['LINE_TIMELINE'])
-kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
+kc.log("Channel Access Token : " + str(channel.channelAccessToken))
 
 kb = LineClient("sps52529@eoopy.com","mai06555mai")
 kb.log("Auth Token : " + str(kb.authToken))
-channel4 = LineChannel(kb,kb.server.CHANNEL_ID['LINE_TIMELINE'])
-kb.log("Channel Access Token : " + str(channel4.channelAccessToken))
+kb.log("Channel Access Token : " + str(channel.channelAccessToken))
 
 
 kd = LineClient("lnw89314@bcaoo.com","mai06555mai")
 kd.log("Auth Token : " + str(kd.authToken))
-channel5 = LineChannel(kd,kd.server.CHANNEL_ID['LINE_TIMELINE'])
-kd.log("Channel Access Token : " + str(channel5.channelAccessToken))
+kd.log("Channel Access Token : " + str(channel.channelAccessToken))
 
 
 ke = LineClient("klb97756@bcaoo.com","mai06555mai")
 ke.log("Auth Token : " + str(ke.authToken))
-channel6 = LineChannel(ke,ke.server.CHANNEL_ID['LINE_TIMELINE'])
-ke.log("Channel Access Token : " + str(channel6.channelAccessToken))
+ke.log("Channel Access Token : " + str(channel.channelAccessToken))
 
 
 kf = LineClient("fvy82102@zzrgg.com","mai06555mai")
 kf.log("Auth Token : " + str(kf.authToken))
-channel7 = LineChannel(kf,kf.server.CHANNEL_ID['LINE_TIMELINE'])
-kf.log("Channel Access Token : " + str(channel7.channelAccessToken))
+kf.log("Channel Access Token : " + str(channel.channelAccessToken))
 
 
 sw = LineClient("yip80399@eoopy.com","mai06555mai")
 sw.log("Auth Token : " + str(sw.authToken))
-channel8 = LineChannel(sw,sw.server.CHANNEL_ID['LINE_TIMELINE'])
-sw.log("Channel Access Token : " + str(channel8.channelAccessToken))
+sw.log("Channel Access Token : " + str(channel.channelAccessToken))
 print ("LOGIN SUKSES SEMUA\n")
 print ("\nBOT MULAI BERJALAN......")
 
